@@ -10,7 +10,8 @@ The project is a dockerized music store that allows you to "buy" product which a
 1.2. npm install<br>
 1.3. cp .env.example .env<br>
 1.4. php artisan key:generate<br>
-1.5. php artisan migrate<br>
-1.6. php artisan db:seed --class=DatabaseSeeder<br>
 2. In terminal (being in main folder of project - where is docker-compose.yml) run command: docker-compose -p MUStore up <br>
-3. Run store in web browers: http://localhost:8080/
+3. In terminal: <br>
+3.1. docker exec php php artisan migrate<br>
+3.2. docker exec php php artisan db:seed --class=DatabaseSeeder<br>
+4. Run store in web browers: http://localhost:8080/
