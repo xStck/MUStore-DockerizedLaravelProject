@@ -5,7 +5,7 @@
 The project is a dockerized music store that allows you to "buy" product which are in data base. It is possible only when the user is logged in (he must register first). The user can also edit his cart.
 <br>
 <h2 align="center">For the project to work properly, it is necessary to:</h2><br>
-1. In terminal (being in application folder - /MUStore/) run command: 
+1. In terminal (being in application folder - /MUStore/) run command: <br>
 1.1. composer install <br>
 1.2. npm install<br>
 1.3. cp .env.example .env<br>
